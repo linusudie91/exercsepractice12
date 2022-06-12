@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercise 11</title>
+        <style>
+            .grid {
+                display: grid;
+                grid-template-columns: 200px 75px;
+            }
+
+            .lightblue{
+                display: inline-block;
+                width: 200px;
+                background-color: lightblue;
+            }
+
+            .lightpink{
+                display: inline-block;
+                width: 75px;
+                background-color: lightpink;
+                margin-left: 0;
+            }
+
+            .grid-two {
+                display: grid;
+                grid-template-rows: 75px 100px 1fr;
+                margin-top: 20px;
+            }
+
+            .white {
+                background-color: lightblue;
+                width: 100px;
+                display: inline-block;
+            }
+
+            .blue {
+                background-color: lightpink;
+                width: 300px;
+                display: inline-block;
+            }
+
+            .green {
+                background-color: lightblue;
+                width: 100px;
+                display: inline-block;
+            }
+
+            .grid-green {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                column-gap: 20px;
+                row-gap: 10px;
+                margin-top: 30px;
+            }
+
+            .col-one {
+                background-color: lightpink;
+                display: inline-block;
+                width: 100px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="grid">
+            <div class="lightblue">200px</div><div class="lightpink">75px</div>
+        </div>
+        <div class="grid-two">
+            <div class="white">200px</div><div class="blue">75px</div><div class="green">200px</div>
+        </div>
+        <div class="grid-green">
+            <div class="col-one">col1</div><div class="col-one">col2</div><div class="col-one">col3</div>
+            <div class="col-one">col4</div><div class="col-one">col5</div><div class="col-one">col6</div>
+            <div class="col-one">col7</div><div class="col-one">col8</div>
+        </div>
+
+        <a href="index.html">exercise 10</a>
+        <a href="exercise11z.html">exercise 11z</a>
+        <a href="exercise12.html">exercise 12</a>
+        <a href="exercise12e.html">exercise 12e</a>
+    </body>
+</html>
